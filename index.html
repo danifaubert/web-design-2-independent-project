@@ -4,62 +4,57 @@
   <meta charset="utf-8">
   <title>Home</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="shortcut icon" href="favicon.ico">
-  <link rel="icon" type="image/png" href="favicon-196.png">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=PT+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rancho&family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
   <ul class="skip-links" tabindex="0">
-    <li><a href="#main">jump to main content</a></li>
-    <li><a href="#name">jump to name</a></li>
-    <li><a href="#nav">jump to navigation</a></li>
-  </ul>
+  <li><a href="#main">jump to main content</a></li>
+  <li><a href="#footer">jump to footer</a></li>
+  <li><a href="#nav">jump to navigation</a></li>
+</ul>
 
-  <div class="top" aria-hidden="true">
-    <img class="logo" src="images/gnome-logo.png" alt="gnome">
-    <h1>All About Gnomes</h1>
+<div class="top" aria-hidden="true">
+    <img class="img-camp" src="images/camping.jpg" alt="alternative">
+    <h1>Adventure Tales Guild</h1>
+    <p class="p-header">Come and join us for an adventure of lifetime. Explore the earth and all of its beauties join us as we create our own fairytales and explore the unknown</p>
   </div>
 
   <header class="banner" role="banner">
     <nav role="navigation" id="nav" tabindex="0">
-      <ul class="nav">
-        <li class="home"><a href="index.html">Home</a></li>
-        <li class="history"><a href="history.html">History of Gnomes</a></li>
-        <li class="plant"><a href="plants.html">What to Plant</a></li>
-      </ul>
-    </nav>
-    <div class="banner">
-      <img class="image-flex" aria-label="three gnomes in a winter field" src="images/gnome2.jpg" alt="3 gnomes">
-      <p class="caption">Three gnomes sitting in a garden, waiting.</p>
-    </div>
-  </header>
+        <ul class="navbar">
+          <li class="nav-item"><a class="current" href="index.html">Home</a></li>
+          <li class="events"><a href="Events.html">Events</a></li>
+          <li class="home"><a href="AboutUs.html">About Us</a></li>
+        </ul>
+      </nav>
+  <div class="banner">
+    <img class="img-camp" src="images/camping.jpg" alt="alternative">
+      <a class="btn-sold-lg page-scrool" href="#intro">Tales</a>
+  </div>
+</header>
 
   <main role="main" id="main" tabindex="0">
-    <a class="hidden" href="#main">main content</a>
-    <article>
-      <div class="why">
-        <h2>Why Gnomes?</h2>
-        <p class="home-body">Gnomes are a staple in cultures all around the world. We want to give everyone with even a mild interest in gnome subject matter a little corner of the internet to learn a little more about gnomes and why they are one of the best garden friends to have.</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="text-container">
+              <h2>Members</h2>
+              <img class="img-james" src="images/james.jpg" alt="alternative">
+              <p class="p-firstline">James</p>
+              <p class="p-secondline">Owner/event guide</p>
+              <img class="img-elizabeth" src="images/elizabeth.jpg" alt="alternative">
+              <p class="p-firstline">Elizabeth</p>
+              <p lass="p-secondline">Event guide/gear provider</p>
+              <img class="img-brain" src="images/brain.jpg" alt="alternative">
+              <p class="p-firstline">Brian</p>
+              <p lass="p-secondline">Event organizer/planner</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </article>
-  </main>
 
-  <footer role="contentinfo" id="contentinfo" tabindex="0">
-    <div class="col1" tabindex="0">
-      <h3>Social Media</h3>
-      <p class="footer-body">Come see what we are up to from around the world!</p>
-      <ul class="footer-list" aria-label="a list of our social media">
-        <li><img class="social1" aria-label="instagram" src="images/instagram.png" alt="instagram"></li>
-        <li><img class="social2" aria-label="facebook" src="images/facebook.png" alt="facebook"></li>
-        <li><img class="social1" aria-label="pinterest" src="images/pinterest.png" alt="pinterest"></li>
-      </ul>
-    </div>
-    <div class="col2" tabindex="0">
-      <h3>Contact</h3>
-      <p class="footer-body">If you want more information about gnomes, go to your garden and speak to them. They listen and sometimes they speak back. You just gotta be really patient.</p>
-    </div>
-  </footer>
+    </main>
 
-</body>
-</html>
+  </body>
+  </html>
