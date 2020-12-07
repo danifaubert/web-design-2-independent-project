@@ -16,49 +16,114 @@
     <li><a href="#nav">jump to navigation</a></li>
   </ul>
 
-  <div class="top" aria-hidden="true">
-    <h1>Adventure Tales Guild</h1>
-  </div>
-
   <header class="banner" role="banner">
-    <nav role="navigation" id="nav" tabindex="0">
-      <ul class="navbar">
+    <nav role="navigation" id="nav" tabindex="0" class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item"><a class="current" href="index.html">Home</a></li>
         <li class="events"><a href="events.html">Events</a></li>
         <li class="home"><a href="aboutus.html">About Us</a></li>
+        <li><a href="index.html" class="back-to-top" style="display: inline;">Back to Top</a></li>
       </ul>
     </nav>
     <div class="banner">
-      <img class="img-camp" src="images/camping.jpg" alt="alternative">
+      <h1>Adventure Tales Guild</h1>
       <p class="caption">Come and join us for an adventure of lifetime. Explore the earth and all of its beauties join us as we create our own fairytales and explore the unknown</p>
+      <a class="btn-t" href="#tales">Tales</a>
     </div>
   </header>
 
   <main role="main" id="main" tabindex="0">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5">
-          <div class="text-container">
-            <h2>Tales</h2>
-            <img class="img-james" src="images/james.jpg" alt="alternative">
-          </div>
+    <article class="container">
+      <h2 id="tales">Tales</h2>
+      <div class="tales-1">
+        <div class="card-1">
+          <img class="img-james" src="images/james.jpg" alt="alternative">
+        </div>
+        <div class="card-1">
+          <h2>Himalayan mountains</h2>
+          <p>The Himalayan mountains one of our favourite Adventures we've gone on in 2019, space we ventured with a group around 50 up to the high mountains to where we explored through dangerous routes but that let us to a beautiful sunset. After that we set up camp and waited till Dawn to start our Ascent down the mountain twitch after we celebrated with the group feast and shared our tales and Adventures amongst ourselves.</p>
         </div>
       </div>
-    </div>
-
+      <div class="tales-2">
+        <div class="card-2">
+          <h2>Himalayan mountains</h2>
+          <p>The Himalayan mountains one of our favourite Adventures we've gone on in 2019, space we ventured with a group around 50 up to the high mountains to where we explored through dangerous routes but that let us to a beautiful sunset. After that we set up camp and waited till Dawn to start our Ascent down the mountain twitch after we celebrated with the group feast and shared our tales and Adventures amongst ourselves.</p>
+        </div>
+        <div class="card-2">
+          <img class="img-james" src="images/elizabeth.jpg" alt="alternative">
+        </div>
+      </div>
+    </article>
   </main>
 
   <footer role="contentinfo" id="footer" tabindex="0">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="text-container">
-            <h4>Few Worlds</h4>
-            <p class="white">we welcome and are always up for a adventure, any time or place. we reach for the stars and are always looking for others to share in are adventures with. so join us in are adventures and create your own tale.</p>
-          </div>
+    <div class="foot-card-1">
+      <h4>Few Worlds</h4>
+      <p class="white">we welcome and are always up for a adventure, any time or place. we reach for the stars and are always looking for others to share in are adventures with. so join us in are adventures and create your own tale.</p>
+    </div>
+
+    <div class="foot-card-1">
+      <section class="contact push-2 gutter pad-t-2">
+        <div class="max-length">
+          <h5 class="not-bold">Want to go to Join Us</h5>
+          <p class="mega">We’re looking for adventures who want to get out and have some fun.</p>
+
+          <fieldset class="push-none">
+            <legend class="italic not-bold mega push-none">Personal details</legend>
+          </fieldset>
+
+          <form class="push-0" method="POST" action="http://formspree.io/bradlet">
+            <div class="grid">
+              <div class="unit mega push xs-1 s-1 m-1 l-1-2 padding-right">
+                <label for="name">Name</label>
+                <input id="name" name="name" required>
+              </div>
+
+              <div class="unit mega push xs-1 s-1 m-1 l-1-2">
+                <label for="age">Age</label>
+                <input id="age" name="date" required>
+              </div>
+
+              <div class="unit mega push xs-1 s-1 m-1 l-1-2 padding-right">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" required>
+              </div>
+
+              <div class="unit mega push xs-1 s-1 m-1 l-1-2">
+                <label for="subject">Physical fitness</label>
+                <select id="subject" name="_subject">
+                  <option>Super-human</option>
+                  <option>Fit as a fiddle</option>
+                  <option>Not terribly strong</option>
+                  <option>A little couch-potato-y</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="push">
+              <label for="details">Address</label>
+              <textarea id="details" name="message" required></textarea>
+            </div>
+
+            <fieldset class="push-none">
+              <legend class="italic not-bold mega">Questions</legend>
+            </fieldset>
+
+            <div class="push">
+              <label for="questions">What may we help you with?</label>
+              <textarea id="questions" name="message" required></textarea>
+            </div>
+
+            <div class="center-content">
+              <button class="btn btn-light mega" type="submit">Register for the trip!</button>
+              <input type="hidden" name="_subject" value="Request to join the mission">
+            </div>
+          </form>
         </div>
+      </section>
+    </div>
 
-      </footer>
+  </footer>
 
-    </body>
-    </html>
+</body>
+</html>
