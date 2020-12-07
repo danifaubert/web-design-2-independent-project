@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Rancho&family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-  <ul class="skip-links" tabindex="0">
+  <ul class="skip-links">
     <li><a href="#main">jump to main content</a></li>
     <li><a href="#footer">jump to footer</a></li>
     <li><a href="#nav">jump to navigation</a></li>
@@ -19,18 +19,20 @@
   <div class="top" aria-hidden="true">
     <img class="img-camp" src="images/camping.jpg" alt="alternative">
     <h1>Adventure Tales Guild</h1>
-    <p class="p-header">Come and join us for an adventure of lifetime. Explore the earth and all of its beauties join us as we create our own fairytales and explore the unknown</p>
   </div>
 
   <header class="banner" role="banner">
     <nav role="navigation" id="nav" tabindex="0">
       <ul class="navbar">
-        <li class="home"><a href="index.html">Home</a></li>
-        <li class="events"><a href="Events.html">Events</a></li>
-        <li class="home"><a class="current" href="AboutUs.html">About Us</a></li>
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="events"><a href="events.html">Events</a></li>
+        <li class="home"><a class="current" href="aboutus.html">About Us</a></li>
       </ul>
     </nav>
-    <a class="btn-sold-lg page-scrool" href="#intro">Tales</a>
+    <div class="banner">
+      <img class="img-camp" src="images/camping.jpg" alt="alternative">
+      <p class="caption">Come and join us for an adventure of lifetime. Explore the earth and all of its beauties join us as we create our own fairytales and explore the unknown</p>
+    </div>
   </header>
 
   <main role="main" id="main" tabindex="0">
@@ -44,13 +46,20 @@
             <p class="p-secondline">Owner/event guide</p>
             <img class="img-elizabeth" src="images/elizabeth.jpg" alt="alternative">
             <p class="p-firstline">Elizabeth</p>
-            <p lass="p-secondline">Event guide/gear provider</p>
+            <p class="p-secondline">Event guide/gear provider</p>
             <img class="img-brain" src="images/brain.jpg" alt="alternative">
             <p class="p-firstline">Brian</p>
-            <p lass="p-secondline">Event organizer/planner</p>
+            <p class="p-secondline">Event organizer/planner</p>
           </div>
         </div>
       </div>
     </div>
 
   </main>
+
+  <footer role="contentinfo" id="footer" tabindex="0">
+
+  </footer>
+
+</body>
+</html>
