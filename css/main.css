@@ -7,46 +7,62 @@ body {
   margin: 0;
 }
 
-.hidden {
-  position: absolute;
-  top: -3em;
+.skip-links {
+  display: none;
 }
 
-.navbar {
+.jump-link {
+  position: absolute;
+  top: -5em;
+}
+
+.jump-link:hover {
+  background-color: #000;
+}
+
+li {
+  list-style: none;
+  list-style-type: none;
+}
+
+li, a {
+  color: #113448;
+}
+
+.nav {
+  color: #fff;
   position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
   text-align: center;
+  list-style: none;
+  list-style-type: none;
   background-color: #113448;
 }
 
-.navbar-nav {
-  display: flex;
-  padding-left: 0;
+.nav-link {
+  color: #fff;
   list-style: none;
-  color: #fff;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
+  list-style-type: none;
+  border: .2rem solid #fff;
+  background-color: #fff;
+  padding: .5em;
 }
 
-.navbar-nav, a {
+.nav-link:hover {
   color: #fff;
-  text-align: center;
-  align-content: center;
-  justify-content: space-around;
-  flex-direction: row;
-  display: flex;
-  margin-top: .5em;
-  margin-left: 1em;
-}
-
-a:hover {
   background: #14bf98;
-  padding: .3em;
-  border: .5rem;
+  padding: .2rem;
+  border: .2rem solid #14bf98;
+  justify-content: space-around;
+  text-align: center;
+  margin: 0;
+}
+
+.nav:hover {
+  background-color: #22526e;
 }
 
 .caption {
@@ -197,6 +213,11 @@ h5 {
   text-align: center;
   align-items: center;
   justify-content: center;
+}
+
+a:hover {
+  background-color: yellow;
+  color: red;
 }
 
 @media only screen and (min-width: 38em) {

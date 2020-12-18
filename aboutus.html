@@ -11,17 +11,20 @@
 </head>
 <body>
   <ul class="skip-links">
-    <li><a href="#main">jump to main content</a></li>
-    <li><a href="#footer">jump to footer</a></li>
-    <li><a href="#nav">jump to navigation</a></li>
+    <li><a href="#main" tabindex="0">jump to main content</a></li>
+    <li><a href="#header" tabindex="0">jump to header</a></li>
+    <li><a href="#nav" tabindex="0">jump to navigation</a></li>
   </ul>
 
-  <header class="banner" role="banner">
-    <nav role="navigation" id="nav" tabindex="0" class="navbar fixed-top">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a href="index.html">Home</a></li>
-        <li class="events"><a href="events.html">Events</a></li>
-        <li class="aboutus"><a class="current" href="aboutus.html">About Us</a></li>
+  <header role="banner" id="header" tabindex="0">
+    <a class="jump-link" href="#header">banner content</a>
+
+    <nav role="navigation" id="nav" tabindex="0" class="nav fixed-top">
+      <a class="jump-link" href="#nav">navigation</a>
+      <ul>
+        <li class="nav-link"><a href="index.html">Home</a></li>
+        <li class="nav-link"><a href="events.html">Events</a></li>
+        <li class="nav-link"><a class="current" href="aboutus.html">About Us</a></li>
         <li><a href="index.html" class="back-to-top" style="display: inline;">Back to Top</a></li>
       </ul>
     </nav>
@@ -33,6 +36,7 @@
   </header>
 
   <main role="main" id="main" tabindex="0">
+    <a class="jump-link" href="#main">main content</a>
     <div class="container">
       <div class="text-container">
         <h2>Members</h2>
