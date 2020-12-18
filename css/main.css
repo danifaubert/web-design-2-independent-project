@@ -216,8 +216,8 @@ h5 {
 }
 
 a:hover {
-  background-color: #14bf98;
-  color: white;
+  background-color: yellow;
+  color: red;
 }
 
 @media only screen and (min-width: 38em) {
