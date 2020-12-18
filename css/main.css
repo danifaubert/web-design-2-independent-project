@@ -17,6 +17,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  background-color: #113448;
 }
 
 .navbar-nav {
@@ -24,11 +25,24 @@ body {
   flex-direction: column;
   padding-left: 0;
   list-style: none;
+  color: #fff;
 }
 
-.ml-auto, .mx-auto {
-  margin-left: auto;
+.navbar-nav, a {
+  color: #fff;
+  text-align: center;
+  align-content: center;
+  justify-content: space-around;
   flex-direction: row;
+  display: flex;
+  margin-top: .5em;
+  margin-left: 1em;
+}
+
+a:hover {
+  background: #14bf98;
+  padding: .3em;
+  border: .5rem;
 }
 
 .caption {
