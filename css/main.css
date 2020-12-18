@@ -7,8 +7,9 @@ body {
   margin: 0;
 }
 
-.skip-links {
-  display: none;
+.hidden {
+  position: absolute;
+  top: -3em;
 }
 
 .navbar {
