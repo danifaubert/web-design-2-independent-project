@@ -257,6 +257,11 @@ a:hover {
     background-color: #113448;
   }
 
+  a:hover {
+    background-color: #14bf98;
+    color: black;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -284,6 +289,11 @@ a:hover {
   .color {
     padding-top: 1em;
     background-color: #113448;
+  }
+
+  a:hover {
+    background-color: #14bf98;
+    color: black;
   }
 
 }
