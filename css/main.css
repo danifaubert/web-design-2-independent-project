@@ -258,7 +258,7 @@ a:hover {
   }
 
   a:hover {
-    background-color: #14bf98;
+    background-color: white;
     color: black;
   }
 
@@ -292,8 +292,8 @@ a:hover {
   }
 
   a:hover {
-    background-color: #14bf98;
-    color: black;
+    background-color: yellow;
+    color: red;
   }
 
 }
