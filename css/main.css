@@ -158,6 +158,9 @@ img {
 footer {
   background-color: #113448;
   color: #fff;
+  padding-top: .5em;
+  padding-left: .7em;
+  padding-right: .7em;
 }
 
 h3 {
@@ -177,7 +180,7 @@ h4 {
 h5 {
   border-bottom-style: solid;
   border-bottom-color: #fff;
-  margin: 0 0 1rem
+  margin: 0 0 1rem;
 }
 
 .btn {
@@ -208,12 +211,6 @@ h5 {
 a:hover {
   background-color: #14bf98;
   color: black;
-}
-
-footer {
-  padding-top: .5em;
-  padding-left: .7em;
-  padding-right: .7em;
 }
 
 @media only screen and (min-width: 38em) {
@@ -295,16 +292,6 @@ footer {
     margin: 0;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
-  }
-
-  .tales-1 {
-    margin: 0;
-    width: 100%;
-  }
-
-  .tales-2 {
-    margin: 0;
-    width: 100%;
   }
 
   .card-2 p {
