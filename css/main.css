@@ -386,8 +386,8 @@ a:hover {
   }
 
   a:hover {
-    background-color: yellow;
-    color: red;
+    background-color: white;
+    color: black;
   }
 
   .btn-t {
