@@ -40,6 +40,10 @@ li, a {
   color: #113448;
 }
 
+.light {
+  color: #3b3b3b;
+}
+
 .nav {
   color: #fff;
   position: relative;
@@ -83,7 +87,7 @@ main {
   z-index: 999;
   right: .75rem;
   bottom: .75rem;
-  display: none;
+  display: inline;
   width: 2.625rem;
   height: 2.625rem;
   border-radius: 1.875rem;
